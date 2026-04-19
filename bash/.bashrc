@@ -2,6 +2,9 @@ slc () {
  fc -ln -1 | sed -e 's/`[ \t]*//' >> ~/commands ;
 }
 
+# TO-DO
+# OS=`uname -s` 
+# case "$OS" in
 # setxkbmap -option caps:swapescap
 
 set -o vi
